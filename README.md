@@ -50,7 +50,7 @@ convert_weat.py [-h] --weat_dir WEAT_DIR --output OUTPUT
 
 Format of output JSON file is presented below.
 
-```json
+```
 {
     DATA_NAME:
     {
