@@ -99,7 +99,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Compute WEAT score of pretrained word embedding models')
     parser.add_argument('--word_embedding_type', type=str, required=True,
-                        help='Type of pretrained word embedding: word2vec, glove, hub')
+                        help='Type of pretrained word embedding: word2vec, glove, tf-hub')
     parser.add_argument('--word_embedding_path', type=str, required=False,
                         help='Path of pretrained word embedding')
     parser.add_argument('--weat_path', type=str, required=False, default='weat/weat.json',
@@ -107,7 +107,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, required=False, default='output/output.csv',
                         help='Path of output file (CSV formatted WEAT score)')
     parser.add_argument('--tf_hub', type=str, required=False,
-                        help='Tensorflow Hub URL (ignored when word_embedding_type is not \'hub\')')
+                        help='Tensorflow Hub URL (ignored when word_embedding_type is not \'tf_hub\')')
 
     args = parser.parse_args()
     print('Arguments:')

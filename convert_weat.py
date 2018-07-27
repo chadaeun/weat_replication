@@ -51,7 +51,7 @@ def main(args):
             data_dict['attributes'] = '{} vs {}'.format(keys[2], keys[3])
 
     with open(args.output, 'w') as f:
-        json.dump(weat_dict, f)
+        json.dump(weat_dict, f, sort_keys=True, indent=4)
 
 
 if __name__ == '__main__':

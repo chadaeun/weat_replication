@@ -48,7 +48,7 @@ if __name__ == '__main__':
     parser.add_argument('--weat_path', type=str, required=False, default='weat/weat.json',
                         help='WEAT json file path (weat.json)')
     parser.add_argument('--result_path', type=str, required=False, default='result.csv',
-                        help='Result image path')
+                        help='Result CSV file path')
     args = parser.parse_args()
 
     main(args)

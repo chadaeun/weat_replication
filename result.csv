@@ -1,8 +1,8 @@
 ,Data Name,Targets,Attributes,nnln_en_50_output.csv,nnln_en_128_output.csv,glove_output.csv,word2vec_output.csv
-0,Male_Female_Career_Family,Male names vs Female names,Career words vs Family words,1.2921433448791504,1.1073673963546753,1.757817178881747,1.7586753368377686
-1,Flowers_Insects_Pleasant_Unpleasant,Flowers vs Insects,Pleasant vs Unpleasant,1.5515471696853638,1.6483474969863892,1.0726175421580977,1.5268206596374512
-2,EuropeanAmerican_AfricanAmerican_Pleasant_Unpleasant,European American names vs African American names,Pleasant vs Unpleasant,0.7878646254539491,-0.3710472881793976,1.0615533874676928,0.5447061061859131
-3,Science_Arts_Male_Female,Science words vs Arts words,Male attributes vs Female attributes,0.8010240793228149,1.0291712284088137,1.4765402978387692,1.0351779460906982
-4,EuropeanAmerican_AfricanAmerican_Pleasant_Unpleasant_2,European American names vs African American names,Pleasant vs Unpleasant,0.24391336739063266,-0.8524205684661865,1.10655761418527,0.5668039917945862
-5,Math_Arts_Male_Female,Math words vs Arts Words,Male attributes vs Female attributes,1.330932378768921,1.1085931062698364,1.5256825287272626,1.2487324476242063
-6,MusicalInstruments_Weapons_Pleasant_Unpleasant,Musical instruments vs Weapons,Pleasant vs Unpleasant,1.6731377840042114,1.5640208721160889,1.5142826247693182,1.442100167274475
+0,EuropeanAmerican_AfricanAmerican_Pleasant_Unpleasant,European American names vs African American names,Pleasant vs Unpleasant,0.7878646254539491,-0.3710472881793976,1.0615533874676928,0.5447061061859131
+1,EuropeanAmerican_AfricanAmerican_Pleasant_Unpleasant_2,European American names vs African American names,Pleasant vs Unpleasant,0.24391336739063266,-0.8524205684661865,1.10655761418527,0.5668039917945862
+2,Flowers_Insects_Pleasant_Unpleasant,Flowers vs Insects,Pleasant vs Unpleasant,1.5515471696853638,1.6483474969863892,1.0726175421580977,1.5268206596374512
+3,Male_Female_Career_Family,Male names vs Female names,Career words vs Family words,1.2921433448791504,1.1073673963546753,1.757817178881747,1.7586753368377686
+4,Math_Arts_Male_Female,Math words vs Arts Words,Male attributes vs Female attributes,1.330932378768921,1.1085931062698364,1.5256825287272626,1.2487324476242063
+5,MusicalInstruments_Weapons_Pleasant_Unpleasant,Musical instruments vs Weapons,Pleasant vs Unpleasant,1.6731377840042114,1.5640208721160889,1.5142826247693182,1.442100167274475
+6,Science_Arts_Male_Female,Science words vs Arts words,Male attributes vs Female attributes,0.8010240793228149,1.0291712284088137,1.4765402978387692,1.0351779460906982
