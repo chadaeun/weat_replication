@@ -11,7 +11,7 @@ def word2vec_define_get_word_vectors(args):
     import logging
 
     print('Loading word2vec model...', end='')
-    model = KeyedVectors.load_word2vec_format(args.word_embedding_path)
+    model = KeyedVectors.load_word2vec_format(args.word_embedding_path, binary=True)
     print('DONE')
 
     def get_word_vectors(words):

@@ -1,4 +1,4 @@
-python main.py --word_embedding_type word2vec --word_embedding_path pretrained/word2vec/lexvec.commoncrawl.300d.W.pos.neg3.vectors --output output/word2vec_output.csv
-python main.py --word_embedding_type glove --word_embedding_path pretrained/glove/glove.6B/glove.6B.50d.txt --output output/glove_output.csv
-python main.py --word_embedding_type tf_hub --tf_hub https://tfhub.dev/google/nnlm-en-dim50/1 --output output/nnln_en_50_output.csv
-python main.py --word_embedding_type tf_hub --tf_hub https://tfhub.dev/google/nnlm-en-dim128/1 --output output/nnln_en_128_output.csv
+python weat_test.py --word_embedding_type word2vec --word_embedding_path pretrained/word2vec/GoogleNews-vectors-negative300.bin --output output/word2vec_output.csv
+python weat_test.py --word_embedding_type glove --word_embedding_path pretrained/glove/glove.6B/glove.6B.50d.txt --output output/glove_output.csv
+python weat_test.py --word_embedding_type tf_hub --tf_hub https://tfhub.dev/google/nnlm-en-dim50/1 --output output/nnln_en_50_output.csv
+python weat_test.py --word_embedding_type tf_hub --tf_hub https://tfhub.dev/google/nnlm-en-dim128/1 --output output/nnln_en_128_output.csv

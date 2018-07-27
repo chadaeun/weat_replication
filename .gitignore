@@ -10,3 +10,5 @@ pretrained/
 venv/
 
 TODO_elmo_test\.py
+
+lib/__pycache__/utils\.cpython-36\.pyc
