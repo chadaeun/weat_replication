@@ -1,0 +1,12 @@
+
+\.idea/
+
+\.ipynb_checkpoints/
+
+pretrained/word2vec/lexvec\.commoncrawl\.300d\.W\.pos\.neg3\.vectors
+
+pretrained/
+
+venv/
+
+TODO_elmo_test\.py
