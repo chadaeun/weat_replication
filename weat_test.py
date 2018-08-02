@@ -101,7 +101,7 @@ if __name__ == '__main__':
     parser.add_argument('--word_embedding_type', type=str, required=True,
                         help='Type of pretrained word embedding: word2vec, glove, tf-hub')
     parser.add_argument('--word_embedding_path', type=str, required=False,
-                        help='Path of pretrained word embedding')
+                        help='Path of pretrained word embedding.')
     parser.add_argument('--weat_path', type=str, required=False, default='weat/weat.json',
                         help='Path of WEAT words file (weat.json)')
     parser.add_argument('--output', type=str, required=False, default='output/output.csv',

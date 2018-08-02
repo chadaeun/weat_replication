@@ -16,13 +16,23 @@ replicated features:
     - Word2Vec
     - Glove
     - Word Embeddings availalbe at TensorFlow Hub
-    - ~~Universal Sentence Encoder~~
-    - ~~ELMo~~
+    - Universal Sentence Encoder
 - WEAT:
     - WEAT, ~~p-value~~
     - ~~WEFAT, p-value~~
 - Output Format:
     - CSV
+    
+---
+
+[NumPy](http://www.numpy.org/), [Pandas](https://pandas.pydata.org/), and [tabulate](https://pypi.org/project/tabulate/) are required
+
+[Gensim]() is required to run Word2Vec
+
+[TensorFlow 1.7 or above](https://www.tensorflow.org/install/) and [TensorFlow hub](https://www.tensorflow.org/hub/installation) is required to run tensorflow hub
+
+TensorFlow 1.7 is required to run Universal Sentence Encoder
+
 
 ## Python scripts:
 
@@ -121,6 +131,8 @@ Word Embeddings Used in `result.csv`:
 - [nnlm_en_dim128](https://www.tensorflow.org/hub/modules/google/nnlm-en-dim128/1): https://tfhub.dev/google/nnlm-en-dim128/1
 - [GloVe](https://nlp.stanford.edu/projects/glove/): Wikipedia 2014 + Gigaword 5, 50d
 - [Word2Vec](https://code.google.com/archive/p/word2vec/): [GoogleNews-vectors-negative300.bin.gz](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
+- [Universal Sentence Encoder](https://www.tensorflow.org/hub/modules/google/universal-sentence-encoder/2): https://tfhub.dev/google/universal-sentence-encoder/2
+
 
 ## Directory
 
